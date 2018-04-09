@@ -13,7 +13,7 @@ public interface ApiBase
 
     //@GET("question/2/FindAll")
     @GET("/question/2/FindAll")
-    Call<List<Question>>getQuestionList();
+    Call<Question>getQuestionList();
 
 
     /*@GET("{_id}")  //this is used for dynamic accessing of data
